@@ -7,3 +7,4 @@
     * [espressomaschinendoctor.de](https://www.espressomaschinendoctor.de/ErsatzteileHersteller/Bezzera-Ersatzteile:::25_35.html?XTCsid=d70ca5cddf6406c3db1bd2f2a9ffe06c)
     * [nuova-ricambi.de](https://www.nuova-ricambi.de/shop/de/Hersteller/BEZZERA) 
     * [rimprezza.de](http://www.rimprezza.de/epages/63241512.sf/de_DE/?ObjectID=12165446&ViewAction=FacetedSearchProducts&SearchString=bz10)
+    * [stolle-espresso](https://www.stoll-espresso.de/search?sSearch=bz10)
