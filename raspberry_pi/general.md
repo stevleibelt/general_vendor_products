@@ -87,4 +87,3 @@ pacman -S base-devel htop lsof git nmon vim
 * [R-Pi Troughleshooting on elinux.org](http://elinux.org/R-Pi_Troubleshooting)
 * [kubernets on a pi](https://opensource.com/article/17/3/kubernetes-raspberry-pi)
 * [how to secure your pi](https://opensource.com/article/17/3/iot-security-raspberry-pi)
-* [how to build a raspberry pi webcam server](https://pimylifeup.com/raspberry-pi-webcam-server/)
