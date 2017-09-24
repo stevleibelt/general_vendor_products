@@ -5,6 +5,7 @@
 ### Links
 
 * [LinageOS 14.1](https://forum.xda-developers.com/galaxy-s2-plus/orig-development/rom-cyanogenmod-14-1-t3524368)
+* [cm14.1](https://basketbuild.com/devs/GHsR/CM-14.1/i9105p)
 * [cm13](https://s.basketbuild.com/devs/GHsR/CM-13/i9105p)
 * [opengapps](http://opengapps.org/?download=false&arch=arm&api=6.0)
 * [unofficial builds](http://wiki.cyanogenmod.org/w/Unofficial_Ports#Samsung_Galaxy_S_II_Plus_.28GT-I9105P.29)
