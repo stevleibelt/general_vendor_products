@@ -5,6 +5,7 @@
 ### Links
 
 * [LinageOS 14.1](https://forum.xda-developers.com/galaxy-s2-plus/orig-development/rom-cyanogenmod-14-1-t3524368)
+* [Magisk - the maybe better TWRP](https://github.com/topjohnwu/Magisk)
 * [cm14.1](https://basketbuild.com/devs/GHsR/CM-14.1/i9105p)
 * [cm13](https://s.basketbuild.com/devs/GHsR/CM-13/i9105p)
 * [opengapps](http://opengapps.org/?download=false&arch=arm&api=6.0)

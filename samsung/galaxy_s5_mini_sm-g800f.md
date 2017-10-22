@@ -17,6 +17,7 @@ Samsung Galaxy s5 Mini (SM-G800F)
 
 * [general samsung galaxy s5 mini forum at xda developers](http://forum.xda-developers.com/sitesearch.php?q=galaxy%20s5%20mini)
 * [LinageOS 14.1](https://forum.xda-developers.com/galaxy-s5-mini/development/g800f-m-y-lineageos-14-1-g800f-m-y-t3549055)
+* [Magisk - the maybe better TWRP](https://github.com/topjohnwu/Magisk)
 * [LinageOS 14.1 thread at xda developers](https://forum.xda-developers.com/galaxy-s5-mini/development/g800f-m-y-lineageos-14-1-g800f-m-y-t3549055)
 * [latest cm 13.0 build images](https://aykevl.nl/android)
 * [latest build images](https://aykevl.nl/android)
