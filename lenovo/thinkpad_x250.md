@@ -54,3 +54,4 @@ dd if=bios.img of=/dev/<your device> bs=1M
 * http://www.thinkwiki.org/wiki/Thinkpad-acpi
 * https://support.lenovo.com/de/en/documents/pd100610
 * http://support.lenovo.com/de/en/products/Laptops-and-netbooks/ThinkPad-X-Series-laptops/ThinkPad-X250?query=&Shallow=1&Type=&OperatingSystems=&Component=&Symptom=&tabName=Downloads&linkTrack=Mast:SubNav:Support:Drivers%20and%20Software|Drivers%20and%20Software&beta=false
+* https://workaround.org/article/updating-the-bios-on-lenovo-laptops-from-linux-using-a-usb-flash-stick/
