@@ -9,7 +9,7 @@
 # link
 
 * [xda main page](https://forum.xda-developers.com/google-nexus-5/general/index-google-nexus-5-roms-kernels-mods-t2475401)
-* [magisk](https://forum.xda-developers.com/google-nexus-5/orig-development/mod-multirom-v24-t2571011/)
+* [magisk](https://forum.xda-developers.com/apps/magisk)
 * [how to multirom](https://forum.xda-developers.com/google-nexus-5/orig-development/mod-multirom-v24-t2571011/)
 * [linage os](https://wiki.lineageos.org/devices/hammerhead)
 * [Android on arch linux](https://wiki.archlinux.org/index.php/Android)
@@ -27,3 +27,4 @@
 * [run android applications under windows, linux or macos](http://www.bbc.com/news/technology-32160263)
 * [open gapps](http://opengapps.org/?arch=arm&api=7.1)
 * [twrp](https://twrp.me/lg/lgnexus5.html)
+* [increase camera quality](http://www.droidviews.com/maximum-image-quality-dual-audio-on-nexus-5/)
