@@ -6,6 +6,10 @@
 * android-udev
 * adb-sync
 
+# arm or arm64?
+
+It has a [arm](https://android.stackexchange.com/questions/116658/does-google-nexus-5-has-arm-or-armx86-or-armx64-processor) processor.
+
 # link
 
 * [xda main page](https://forum.xda-developers.com/google-nexus-5/general/index-google-nexus-5-roms-kernels-mods-t2475401)
@@ -21,6 +25,7 @@
 * [linageos](https://wiki.lineageos.org/devices/hammerhead/install)
     * [xda thread](https://forum.xda-developers.com/google-nexus-5/orig-development/rom-lineage-os-14-1-nexus-5-t3528849)
     * [adb kickstart](https://wiki.lineageos.org/adb_fastboot_guide.html#setting-up-adb)
+    * [lineageos extras download page](https://download.lineageos.org/extras)
 * [hardware support status for merproject](https://wiki.merproject.org/wiki/Adaptations/libhybris/Install_SailfishOS_for_hammerhead)
 * [plasma mobile/kubuntu](https://forum.xda-developers.com/google-nexus-5/general/kubuntu-nexus-5-t3165144)
 * [run android applications in chrome](https://chrome.google.com/webstore/detail/arc-welder/emfinbmielocnlhgmfkkmkngdoccbadn)
