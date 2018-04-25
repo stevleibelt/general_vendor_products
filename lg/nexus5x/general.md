@@ -23,6 +23,7 @@ It has a [arm](https://duckduckgo.com/?q=does+nexus+5x+has+an+arm+or+arm64+proce
     * [adb kickstart](https://wiki.lineageos.org/adb_fastboot_guide.html#setting-up-adb)
     * [lineageos extras download page](https://download.lineageos.org/extras) - use arm64
     * [15.1 image](https://download.lineageos.org/bullhead)
+        * [endless boot?](https://www.reddit.com/r/LineageOS/comments/7jf4sb/stuck_at_boot_animation_after_installing_lineage/) - Try "Wipe" -> "Format Data" -> "Yes" in TWRP
 * [bootloop fix](https://www.xda-developers.com/nexus-5x-bootloop-fix-boot-phone/)
     * download [N2G47Z_4Cores.img](https://www.dropbox.com/s/tm7qt98r6d7q2a6/N2G47Z_4Cores.img?dl=0)
     * fastboot flash boot N2G47Z_4Cores.img
