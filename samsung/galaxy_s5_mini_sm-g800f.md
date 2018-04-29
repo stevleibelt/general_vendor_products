@@ -2,6 +2,15 @@
 
 Samsung Galaxy s5 Mini (SM-G800F)
 
+# flash twrp
+
+* easy way only doable with older twrp version installed
+* download latest twrp version
+* copy it on the sd card
+* start twrp
+* advanced -> shell
+* dd if=/external_sd/path/to/twrp-3.2.1-0-kminilte.img of=/dev/block/mmcblk0p10
+
 # flash a system
 
 * press the following buttons when you are on a restart
@@ -22,4 +31,6 @@ Samsung Galaxy s5 Mini (SM-G800F)
 * [latest cm 13.0 build images](https://aykevl.nl/android)
 * [latest build images](https://aykevl.nl/android)
 * [cm 13.0 thread at xda developers](http://forum.xda-developers.com/galaxy-s5-mini/development/g800f-m-y-cyanogenmod-13-0-g800f-m-y-t3234909)
-* [cm 14.1 testbuild thread at xda developers](http://forum.xda-developers.com/galaxy-s5-mini/development/g800f-m-y-cyanogenmod-14-1-g800f-m-y-t3495789)
+* [cm 14.1 testbuild - beta](https://forum.xda-developers.com/galaxy-s5-mini/development/g800f-m-y-lineageos-14-1-g800f-m-y-t3549055)
+* [cm 15.0 testbuild - alpha](https://forum.xda-developers.com/galaxy-s5-mini/development/g800f-m-y-lineageos-15-0-g800f-m-y-t3678205)
+* [flash twrp](https://twrp.me/samsung/samsunggalaxys5miniexynos.html)
