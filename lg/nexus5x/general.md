@@ -27,7 +27,7 @@ It has a [arm](https://duckduckgo.com/?q=does+nexus+5x+has+an+arm+or+arm64+proce
 * [bootloop fix](https://www.xda-developers.com/nexus-5x-bootloop-fix-boot-phone/)
     * download [N2G47Z_4Cores.img](https://www.dropbox.com/s/tm7qt98r6d7q2a6/N2G47Z_4Cores.img?dl=0)
     * fastboot flash boot N2G47Z_4Cores.img
-* [google android stock rom / factory rom](https://developers.google.com/android/images#bullhead)
+* [google android full OTA images / stock rom / factory rom](https://developers.google.com/android/images#bullhead)
     * [howto](https://developers.google.com/android/images)
 * [vendor image](https://androidfilehost.com/?w=files&flid=49360)
 * [open gapps](http://opengapps.org/?arch64=arm&api=8.1)

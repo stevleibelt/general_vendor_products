@@ -12,6 +12,7 @@ It has a [arm](https://android.stackexchange.com/questions/116658/does-google-ne
 
 # link
 
+* [google android full OTA images / stock rom / factory rom](https://developers.google.com/android/images#hammerhead)
 * [xda main page](https://forum.xda-developers.com/google-nexus-5/general/index-google-nexus-5-roms-kernels-mods-t2475401)
 * [magisk](https://forum.xda-developers.com/apps/magisk)
 * [how to multirom](https://forum.xda-developers.com/google-nexus-5/orig-development/mod-multirom-v24-t2571011/)
