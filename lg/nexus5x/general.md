@@ -32,3 +32,5 @@ It has a [arm](https://duckduckgo.com/?q=does+nexus+5x+has+an+arm+or+arm64+proce
 * [vendor image](https://androidfilehost.com/?w=files&flid=49360)
 * [open gapps](http://opengapps.org/?arch64=arm&api=8.1)
 * [twrp](https://dl.twrp.me/bullhead/)
+* [>>Install Resurrection Remix v6.0.0 On Nexus 5X (Android 8.1 Oreo)<<](https://rootmygalaxy.net/install-resurrection-remix-v6-0-0-on-nexus-5x-android-8-1-oreo/) - 2018-03-25
+* [>>How To Install Official Resurrection Remix On Google Nexus 5X (Android 7.1.2)<<](https://www.getdroidtips.com/resurrection-remix-nexus-5x/) - 2018-03-07
