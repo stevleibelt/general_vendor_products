@@ -14,13 +14,13 @@ It has a [arm64](https://duckduckgo.com/?q=does+nexus+5x+has+an+arm+or+arm64+pro
 
 ## Vendor Image Missmatch
 
-Taken from [here](https://www.reddit.com/r/LineageOS/comments/5xwnb9/weird_vendor_image_mismatch_after_update/).
+Taken from [here](https://www.reddit.com/r/LineageOS/comments/5xwnb9/weird_vendor_image_mismatch_after_update/) and [here](http://www.gandalfk7.it/2018/07/15/nexus-5x-lineageos-15-1-vendor-image-mismatch-has-been-detected/).
 
-* download latest official vendor image
+* download latest official [vendor image](https://developers.google.com/android/drivers#bullhead)
 * extract vendor.img
-* fastboot flash vendor vendor.img
+* sudo fastboot flash vendor vendor.img
 
-# steps
+# steps to install twrp
 
 * poweron device
 * unlock developer option
@@ -33,6 +33,15 @@ Taken from [here](https://www.reddit.com/r/LineageOS/comments/5xwnb9/weird_vendo
 * adb reboot bootloader
 * fastboot flash recovery twrp-\*
 * select "recovery mode" from the device
+
+# steps to install a rom
+
+* power+volume down
+* select recovery mode to start twrp
+* enable adb sideload
+* adb sideload \<image>
+* adb sideload gapps
+* adb sideload magisk
 
 # link
 
@@ -58,7 +67,7 @@ Taken from [here](https://www.reddit.com/r/LineageOS/comments/5xwnb9/weird_vendo
     * download [N2G47Z_4Cores.img](https://www.dropbox.com/s/tm7qt98r6d7q2a6/N2G47Z_4Cores.img?dl=0)
     * fastboot flash boot N2G47Z_4Cores.img
 * [google android full OTA images / stock rom / factory rom](https://developers.google.com/android/images#bullhead)
-    * [vendor image](https://dl.google.com/dl/android/aosp/bullhead-n4f26o-factory-1da5304e.zip)
+    * [vendor image](https://developers.google.com/android/images)
     * [howto](https://developers.google.com/android/images)
 * [vendor image](https://androidfilehost.com/?w=files&flid=49360)
 * [open gapps](http://opengapps.org/?arch64=arm&api=8.1)
