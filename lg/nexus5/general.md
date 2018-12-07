@@ -16,6 +16,7 @@ It has a [arm](https://android.stackexchange.com/questions/116658/does-google-ne
 * [xda main page](https://forum.xda-developers.com/google-nexus-5/general/index-google-nexus-5-roms-kernels-mods-t2475401)
 * [magisk](https://forum.xda-developers.com/apps/magisk)
 * [how to multirom](https://forum.xda-developers.com/google-nexus-5/orig-development/mod-multirom-v24-t2571011/)
+* [resurrection remix v6 / android 8.1](https://forum.xda-developers.com/google-nexus-5/development/rom-resurrection-remix-o-6-x-x-t3757854)
 * [linage os](https://wiki.lineageos.org/devices/hammerhead)
 * [Android on arch linux](https://wiki.archlinux.org/index.php/Android)
 * [sailfishos on nexus 5](https://forum.xda-developers.com/google-nexus-5/development/rom-sailfish-os-alpha-t2841266) - Sadly no android applications are running on it
