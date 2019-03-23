@@ -9,6 +9,13 @@
 * power on the device
 * hold the reset button for six to eight seconds
 
+# error
+
+## web gui does not work
+
+* to much security add ons in your firefox
+* try to use a naked waterfox
+
 # links
 
 * http://www.tp-link.com/us/download/TL-WA860RE.html#FAQs
