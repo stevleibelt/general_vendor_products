@@ -20,6 +20,21 @@
 
 ## install twrp
 
+[source](https://www.youtube.com/watch?v=Z6bZZJseEvg)
+
+* [read](https://twrp.me/motorola/motorolamotox4.html)
+* [download](https://dl.twrp.me/payton/) twrp (img and zip)
+* fastboot devices
+* fastboot boot twrp-\*-payton.img
+* adb push twrp-installer-\*.zip /sdcard
+* fastboot reboot
+
+## install magisk
+
+* [download](https://github.com/topjohnwu/Magisk/releases) apk
+
+## install linage os
+
 # links
 
 * [linageos page](https://wiki.lineageos.org/devices/payton)
