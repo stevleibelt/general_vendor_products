@@ -2,7 +2,8 @@
 
 ## unlock boot loader
 
-[source](https://www.youtube.com/watch?v=UVKUDZSyjW4)
+[source - youtube.com](https://www.youtube.com/watch?v=UVKUDZSyjW4)
+[source - androidjunkies.com](https://www.androidjungles.com/root-moto-x4-install-twrp-recovery-payton/)
 
 * power on the phone
 * go to settings->system->about phone->tab seven times on >>Build Number<< to enable developer mode
@@ -32,8 +33,11 @@
 ## install magisk
 
 * [download](https://github.com/topjohnwu/Magisk/releases) apk
+* [source - trueandroid.com](https://www.trueandroid.com/how-to-root-motorola-moto-x4-in-2019-easy-guide/)
 
 ## install linage os
+
+* [source - xda-developers.com](https://forum.xda-developers.com/moto-x4/development/rom-lineage-os-15-1-t3802265)
 
 # links
 
