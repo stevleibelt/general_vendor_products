@@ -2,6 +2,7 @@
 
 ## unlock boot loader
 
+[source - xda-developers.com](https://forum.xda-developers.com/moto-x4/how-to/guide-how-to-root-moto-x4-install-twrp-t3806460)
 [source - youtube.com](https://www.youtube.com/watch?v=UVKUDZSyjW4)
 [source - androidjunkies.com](https://www.androidjungles.com/root-moto-x4-install-twrp-recovery-payton/)
 
