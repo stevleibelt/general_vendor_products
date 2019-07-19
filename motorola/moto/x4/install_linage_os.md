@@ -57,6 +57,14 @@
 * install linageos
 * install gapps
 
+## root it
+
+[source - lineageosrom.com](https://www.lineageosrom.com/2018/09/lineage-os-16-root-android-pie-90-super.html)
+
+* [download supersu](https://download.chainfire.eu/1220/SuperSU/SR5-SuperSU-v2.82-SR5-20171001224502.zip)
+* restart into recovery mode
+* install supersu
+* restart lineage os
 
 # links
 
