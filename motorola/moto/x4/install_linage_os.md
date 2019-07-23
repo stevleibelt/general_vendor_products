@@ -10,12 +10,14 @@
 * go to settings->system->about phone->tab seven times on >>Build Number<< to enable developer mode
 * go to settings->system->developer options->enable >>OEM unlocking<<
 * go to settings->system->developer options->enable >>USB debugging<<
-* turn phone off
 * go into fastboot by pressing "volume down"+"power"-buttons
 * connect phone with your pc and switch to a shell
+* adb devices
+* click "ok" on pop up to allow usb debugging
+* adb reboot bootloader
 * fastboot devices
 * fastboot oem get_unlock_data
-* register and login to this [motorola page](3A65150618936951#5A593232344B374D5250006D6F746F2078340000#D9248C1343950C4E55BC3)
+* register and login to this [motorola page](https://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-b)
 * [request unlock key](https://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-b)
 * fastboot oem unlock <unlock key>
 * fastboot flashing unlock
@@ -61,10 +63,13 @@
 
 [source - lineageosrom.com](https://www.lineageosrom.com/2018/09/lineage-os-16-root-android-pie-90-super.html)
 
-* [download supersu](https://download.chainfire.eu/1220/SuperSU/SR5-SuperSU-v2.82-SR5-20171001224502.zip)
+* [download su](https://download.lineageos.org/extras)
 * restart into recovery mode
-* install supersu
+* cancel decryption try
+* go to advanced and start adb sideload
+* adb sideload addonsu-16.0-arm64-signed.zip
 * restart lineage os
+* go to developer option and search for root and select "adb and apps"
 
 # links
 
