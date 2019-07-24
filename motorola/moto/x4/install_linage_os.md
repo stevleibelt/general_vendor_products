@@ -49,9 +49,10 @@
 
 [source - xda-developers.com](https://forum.xda-developers.com/moto-x4/development/rom-lineage-os-15-1-t3802265)
 [source - youtube.com](https://www.youtube.com/watch?v=NWOBa88eJRs)
+[source - gearallnews.com](https://gearallnews.com/install-lineage-os-16-on-motorola-moto-x4-guide/)
 
 * [download linageos](https://download.lineageos.org/payton) linage os
-* [download open gapps](https://opengapps.org/) (arm64, 9.0, nano)
+* [download open gapps](https://opengapps.org/) (arm64, 9.0, nano) or download it [here](https://builds.nezorfla.me/?dir=opengapps/arm64/20190718)
 * [download copy-partitions-payton](https://androidfilehost.com/?fid=11410963190603889559)
 * start into twrp
 * install linageos
