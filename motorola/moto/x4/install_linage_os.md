@@ -20,10 +20,55 @@
 * register or login to this [motorola page](https://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-b)
 * [request unlock key](https://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-b)
 * fastboot oem unlock <unlock key>
+* #do it again to confirm it
+* fastboot oem unlock <unlock key>
 * fastboot flashing unlock
 * fastboot reboot
 
-## install twrp
+## install copy partitions
+
+* [download copy-partitions-payton](https://androidfilehost.com/?fid=11410963190603889559)
+* boot into twrp
+* install it
+
+## install linage os
+
+[source - xda-developers.com](https://forum.xda-developers.com/moto-x4/development/rom-lineage-os-15-1-t3802265)
+[source - youtube.com](https://www.youtube.com/watch?v=NWOBa88eJRs)
+[source - gearallnews.com](https://gearallnews.com/install-lineage-os-16-on-motorola-moto-x4-guide/)
+
+* [download linageos](https://download.lineageos.org/payton) linage os
+* [download open gapps](https://opengapps.org/) (arm64, 9.0, nano) or download it [here](https://builds.nezorfla.me/?dir=opengapps/arm64/20190718)
+* boot into twrp
+* install linageos
+* got to reboot and note the slot
+* select the not active slot
+* reboot into recovery
+* install gapps
+* select wipe, format data and enter yes
+
+## install magisk
+
+* [download](https://github.com/topjohnwu/Magisk/releases) apk
+* [source - trueandroid.com](https://www.trueandroid.com/how-to-root-motorola-moto-x4-in-2019-easy-guide/)
+
+* either by adb push or by doing it from the android file system
+* install magisk-\*.zip
+* reboot and install magisk manager
+
+## root it
+
+[source - lineageosrom.com](https://www.lineageosrom.com/2018/09/lineage-os-16-root-android-pie-90-super.html)
+
+* [download su](https://download.lineageos.org/extras)
+* restart into recovery mode
+* cancel decryption try
+* go to advanced and start adb sideload
+* adb sideload addonsu-16.0-arm64-signed.zip
+* restart lineage os
+* go to developer option and search for root and select "adb and apps"
+
+## install twrp - optional
 
 [source - youtube.com](https://www.youtube.com/watch?v=Z6bZZJseEvg)
 [source - android.com](https://source.android.com/setup/build/running)
@@ -38,39 +83,9 @@
 * put twrp installer on the android filesystem and install it from there
 * fastboot reboot
 
-## install magisk
+## others
 
-* [download](https://github.com/topjohnwu/Magisk/releases) apk
-* [source - trueandroid.com](https://www.trueandroid.com/how-to-root-motorola-moto-x4-in-2019-easy-guide/)
-
-* either by adb push or by doing it from the android file system
-* install magisk-\*.zip
-* reboot and install magisk manager
-
-## install linage os
-
-[source - xda-developers.com](https://forum.xda-developers.com/moto-x4/development/rom-lineage-os-15-1-t3802265)
-[source - youtube.com](https://www.youtube.com/watch?v=NWOBa88eJRs)
-[source - gearallnews.com](https://gearallnews.com/install-lineage-os-16-on-motorola-moto-x4-guide/)
-
-* [download linageos](https://download.lineageos.org/payton) linage os
-* [download open gapps](https://opengapps.org/) (arm64, 9.0, nano) or download it [here](https://builds.nezorfla.me/?dir=opengapps/arm64/20190718)
-* [download copy-partitions-payton](https://androidfilehost.com/?fid=11410963190603889559)
-* start into twrp
-* install linageos
-* install gapps
-
-## root it
-
-[source - lineageosrom.com](https://www.lineageosrom.com/2018/09/lineage-os-16-root-android-pie-90-super.html)
-
-* [download su](https://download.lineageos.org/extras)
-* restart into recovery mode
-* cancel decryption try
-* go to advanced and start adb sideload
-* adb sideload addonsu-16.0-arm64-signed.zip
-* restart lineage os
-* go to developer option and search for root and select "adb and apps"
+* fastboot --set-active=b
 
 # links
 
