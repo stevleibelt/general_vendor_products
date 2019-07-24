@@ -17,7 +17,7 @@
 * adb reboot bootloader
 * fastboot devices
 * fastboot oem get_unlock_data
-* register and login to this [motorola page](https://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-b)
+* register or login to this [motorola page](https://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-b)
 * [request unlock key](https://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-b)
 * fastboot oem unlock <unlock key>
 * fastboot flashing unlock
