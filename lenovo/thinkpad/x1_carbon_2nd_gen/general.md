@@ -1,3 +1,7 @@
+# general
+
+* 20A70037US model number
+
 # links
 
 * [X1 Carbon 2nd Gen (Type 20A7, 20A8) Laptop (ThinkPad) - Bios Updates](https://pcsupport.lenovo.com/de/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x1-carbon-type-20a7-20a8/downloads/ds039783) - 2019-02-16
