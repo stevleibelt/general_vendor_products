@@ -1,8 +1,20 @@
 # setup
 
-* go to http://tplinkrepeater.net/
+* go to http://tplinkrepeater.net/ or http://192.168.0.254
 * username "admin"
 * password "admin"
+
+# factory reset
+
+* power on the device
+* hold the reset button for six to eight seconds
+
+# error
+
+## web gui does not work
+
+* to much security add ons in your firefox
+* try to use a naked waterfox
 
 # links
 
