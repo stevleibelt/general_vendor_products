@@ -5,11 +5,39 @@ All is tested with a Xiaomi Poco X3 (Surya / Karna).
 
 # Unlock
 
-## Steps
+## Unlock Bootloader using a Mi account
 
-* Install the usb driver
-* Install the bootloader unlocker
-* Install the Miflash to install a new custom ROM
+* create a [Mi account](https://account.xiaomi.com/)
+* on your phone
+    * setup your created me account on the phone
+    * enable `Developer options`
+    * enable `OEM Unlocking`
+    * enable `USB debugging`
+    * disable `wifi` and enable `mobile data`
+    * open `Mi unlock status` and click on `add Mi account with device` (repeat this if step fails)
+        * won't work if you are connected via `USB` cable or `WiFi`
+        * unlock time can take between one and 21 days
+    * power off phone
+    * press `volume down` and `power button` to boot into `fastboot`
+    * plugin `USB` cable
+* on you pc
+    * install [`USB`](https://www.xiaomidriversdownload.com/xiaomi-usb-drivers-official/) driver
+    * download [`Mi Unlock`](https://www.mi-unlocktool.com/), login with your account and press `unlock`
+    * download [`Mi Flash Tool`](https://www.xiaomiflash.com/) and us it 
+
+## Unlock Bootloader with ADB and Fastboot
+
+* it can be that this method won't work
+* power off your phone
+* press `volume down` and `power button` to boot into `fastboot`
+* install [`adb`](https://wiki.archlinux.org/index.php/Android_Debug_Bridge) on your pc
+* open a shell
+    * `fastboot -h` #if you want to know more
+    * `fastboot devices`
+    * `fastboot flashing get_unlock_ability`
+    * `fastboot flashing unlock`
+    * `fastboot flashing unlock_critical`
+    * `fastboot reboot`
 
 # Link
 
