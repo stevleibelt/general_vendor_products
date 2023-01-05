@@ -1,0 +1,380 @@
+                                                          	   Revision : 01
+--------------------------------------------------------------------------------
+Software name      BIOS Update Utility
+
+Support model      ThinkPad E14 Gen 3 (Machine Types:20Y7,20YD,20YE,20YF)
+                   ThinkPad E15 Gen 3 (Machine Types:20YG,20YH,20YJ,20YK)
+
+Operating Systems  Microsoft Windows 10  64-bit 
+                   Microsoft Windows 11  
+                   
+                   Refer to marketing materials to find out what computer models
+                   support which Operating Systems.
+
+Version            1.13
+
+--------------------------------------------------------------------------------
+WHAT THIS PACKAGE DOES
+
+  This package updates the UEFI BIOS (including system program and Embedded
+  Controller program) stored in the Lenovo computer to fix problems, add new
+  functions, or expand functions as noted below.
+  
+  This package also contains the tool to create a bootable BIOS Flash USB memory key.
+  Please refer to "Instruction US - BIOS flash USB memory key.txt" in the installation
+  folder for detail instruction.
+
+  This program is language independent and can be used with any language system.
+
+--------------------------------------------------------------------------------
+CHANGES IN THIS RELEASE
+ Version 1.13
+ 
+[Important updates]
+- Enable Rollback Flash prevention.
+
+[New functions or enhancements]
+  None 
+
+[Problem fixes]
+- Fixed battery drain issue when connect USB C hub.
+
+--------------------------------------------------------------------------------
+DETERMINING WHICH VERSION IS INSTALLED
+
+  There are two ways to check the UEFI BIOS version and BIOS ID.
+
+
+ [Checking on Windows]
+
+  1. Hold down the Windows logo key and press X to open a menu at the lower-left
+     area of the screen.
+
+  2. Select Control Panel from the menu.
+  3. Make sure "View by Category" is selected, and select System and Security,
+     select Administrative Tools, and then select System Information.
+     - or -
+  2. Select Run from the menu.
+  3. Type msinfo32, and press Enter.
+
+  4. On the System Information window, make sure System Summary is selected in
+     the left side of the window.
+  5. Locate the BIOS version/date line in the right side of the window.
+     "LENOVO BIOS ID (BIOS version), date" will be shown.
+
+  If you are prompted for an administrator password or confirmation, type your
+  password, or click Continue.
+
+
+ [Checking on ThinkPad Setup]
+
+  1. Turn off the computer.
+  2. Turn on the computer.
+  3. While the "To interrupt normal startup, press Enter" message is displayed
+     at the lower-left area of the screen, press the F1 key. The ThinkPad Setup
+     menu will be displayed. If a password prompt appears, type the correct
+     password.
+  4. Locate the UEFI BIOS Version line and Embedded Controller Version line.
+     "UEFI BIOS version (BIOS ID)" will be shown on the UEFI BIOS Version line.
+
+--------------------------------------------------------------------------------
+NOTES
+
+- Be aware that the OS Optimized Defaults option in the Restart menu of ThinkPad
+  Setup should not be normally changed. Lenovo recommends to use the factory
+  default setting for it, as follows.
+
+
+  - OS Optimized Defaults                              [Enabled]
+
+  If the OS Optimized Defaults setting is changed, Setup Default by the F9 key
+  will not load the same default configuration, as follows. Furthermore, by the
+  condition of Operating System installation, the computer may not be booted due
+  to the setting change.
+
+  If your computer runs satisfactorily now, you have no need to change the OS
+  Optimized Defaults option. If you need to change the setting, consider well
+  the effect of the setting change.
+
+  Affected Setup menu items :
+  "OS Optimized Defaults" setting          [Disabled] case      [Enabled] case
+  - Security
+    - UEFI BIOS Update Option
+      - Secure RollBack Prevention         [Disabled]           [Enabled]
+    - Secure Boot
+      - Secure Boot                        [Disabled]           [Enabled]
+
+  By the OS to be newly installed, you need to change the OS Optimized Defaults
+  option, and load default configuration.
+
+  1. Enter the ThinkPad Setup menu by following steps in [Checking On ThinkPad
+     Setup] in the DETERMINING WHICH VERSION IS INSTALLED section.
+  2. Select Restart, then select OS Optimized Defaults and press Enter.
+  3. Select the following setting and press Enter.
+       [Enabled]
+  4. Press the F9 key to load default configuration.
+  5. Select Yes.
+  6. Press the F10 key to save default configuration and exit.
+  7. Select Yes.
+     The computer will be restarted automatically.
+
+  (Caution)
+  If both the Secure Boot option is Enabled and UEFI Secure Boot in the Main
+  menu of ThinkPad Setup is shown as Off, restoring Factory Keys is needed. Do
+  the following to restore Factory Keys.
+
+  1. Enter the ThinkPad Setup menu by following steps in [Checking On ThinkPad
+     Setup] in the DETERMINING WHICH VERSION IS INSTALLED section.
+  2. Select Security, then select Secure Boot.
+  3. Select Restore Factory Keys, and press Enter.
+  4. Select Yes to restore Factory keys.
+  5. Press the F10 key to save configuration and exit.
+  6. Select Yes.
+     The computer will be restarted automatically.
+
+--------------------------------------------------------------------------------
+UPDATING THE UEFI BIOS
+
+Notes:
+- If your computer runs satisfactorily now, it may not be necessary to update
+  the UEFI BIOS. To determine if you should update the UEFI BIOS, refer to the
+  Version Information section.
+- You need an AC adapter and a charged battery pack.
+- Remove the Power-on password prior to updating the UEFI BIOS in the remote
+  deployment environments.
+- If the UEFI BIOS has been updated to version 1.13 or higher, it is no longer
+   able to roll back to the version before 1.13.
+
+Attention:
+  Do not turn off or suspend the computer until the update has been completed.
+  IF YOU DO THAT WHILE THE UPDATE IS STILL IN PROGRESS, THE SYSTEM BOARD MAY
+  HAVE TO BE REPLACED.
+
+
+Manual Update
+
+  This section assumes to use Internet Explorer and Windows Explorer.
+
+  Downloading file
+  1. Click once on the underlined file name. Once this is done, some pop-up
+     windows will appear.
+  2. Follow the instructions on the screen.
+  3. In the window to choose "Save" or "Save as", click "Save".
+     Once the download has completed, there may or may not be a message stating
+     that the download completed successfully.
+
+  Extracting file
+  4. Make sure to be logged on with an administrator account on the target
+     computer.
+  5. Make sure the AC adapter is firmly connected to the target computer.
+  6. Open a Windows Explorer and select "Downloads" from "Quick access".
+  7. Locate the file that was downloaded and double-click it.
+  8. Follow the instructions on the screen.
+  9. In Extract or Install? window, select "Install", click Next, and move to
+     step 13 to continue installation.
+     Or, select "Extract only" and click Next to extract and keep the files
+     on the specified folder.
+
+ 10. In the Select Destination Location window, click Extract.
+     If you would like to select a different folder, click Browse.
+ 11. All the necessary files will be extracted to the folder selected in the step 10.
+ 12. Click Finish.
+
+  Updating the UEFI BIOS
+ 13. In the Ready to Install window, click Install. All the necessary files will
+     be extracted to the temporary folder and BIOS will be ready to update.
+     Extracted files will be deleted after installation.
+ 14. Click Finish.
+ 15. Follow the instructions on the screen.
+ 16. Select 'Update ThinkPad BIOS' and follow the instructions on the screen.
+ 17. The program shows a message 'System program update is continued by BIOS at
+     the next reboot'.
+ 18. Click OK.
+     The computer will be restarted automatically and the EFI BIOS will be
+     updated.
+
+Unattended Update
+  This is for system administrators' use only.
+  1. Refer to the Manual Update section, and download and extract the file.
+  2. At the command line, execute WINUPTP.EXE with the -s option.
+     Example: [Path where the files were extracted]\WINUPTP -s
+  3. Restart or fully shut down the computer.
+     Note:
+     Make sure to restart or fully shut down the computer to complete the BIOS
+     update. If hybrid shutdown is made after the BIOS update on Windows 10,
+     the update will not be done correctly.
+     Full shutdown can be done with the following command at the command line on
+     Windows 10.
+       Shutdown /s /t 0
+
+  To view the update result, refer to the WINUPTP.log file created at the same
+  directory of the package.
+
+--------------------------------------------------------------------------------
+INITIALIZING UEFI BIOS
+
+  UEFI BIOS Initialization is suggested for some problems. To initialize the
+  UEFI BIOS settings:
+  1. Power off the computer.
+  2. Power on the computer.
+  3. While the "To interrupt normal startup, press Enter" message is displayed
+     at the lower-left area of the screen, press the F1 key. The ThinkPad Setup
+     menu will be displayed. If a password prompt appears, type the correct
+     password.
+  4. Press the F9 key (or hold down the Fn key and press the F9 key) to load
+     default configuration.
+  5. Select Yes.
+  6. Press the F10 key (or hold down the Fn key and press the F10 key) to save
+     default configuration and exit.
+  7. Select Yes.
+  8. Restart the computer.
+
+  Note:
+  After initialization you may need to reapply some settings that you had
+  changed previously.
+
+--------------------------------------------------------------------------------
+VERSION INFORMATION
+
+  The following versions of UEFI BIOS and ECP (Embedded Controller Program) have
+  been released to date.
+
+  Package  (ID)            UEFI BIOS  (BIOS ID)        ECP    (ECP ID)         Rev.       Issue Date
+  ----------------         --------------------        ----------------        ----       -------------
+  1.13   (R1OUJ34W)        1.13      (R1OET34W)        1.13  (R1OHT34W)        01         2022/07/28
+  1.12   (R1OUJ33W)        1.12      (R1OET33W)        1.12  (R1OHT33W)        01         2022/05/27
+  1.10   (R1OUJ31W)        1.10      (R1OET31W)        1.10  (R1OHT31W)        01         2022/04/12
+  1.09   (R1OUJ30W)        1.09      (R1OET30W)        1.09  (R1OHT30W)        01         2021/11/25
+  1.07   (R1OUJ28W)        1.07      (R1OET28W)        1.07  (R1OHT28W)        01         2021/07/29
+  1.06   (R1OUJ27W)        1.06      (R1OET27W)        1.06  (R1OHT27W)        01         2021/06/15
+  1.05   (R1OUJ26W)        1.05      (R1OET26W)        1.05  (R1OHT26W)        01         2021/05/11
+
+
+  Note: Revision number (Rev.) is for administrative purpose of this README
+        document and is not related to software version. There is no need to
+        upgrade this software when the revision number changes.
+
+  To check the version of UEFI BIOS and Embedded Controller Program, refer to
+  the Determining which version is installed section.
+
+Summary of Changes
+
+  Where: <   >        Package version
+         UEFI:        UEFI BIOS version
+         ECP:         Embedded Controller Program version
+         [Important]  Important update
+         (New)        New function or enhancement
+         (Fix)        Correction to existing function
+
+<1.13>
+- [Important] Enable Rollback Flash prevention.
+- (Fix) Fixed battery drain issue when connect USB C hub.
+
+<1.12>
+- (Fix) Fixed the issue that Numlock is turned off when hitting ctrl directly after using numeric keypad with ctrl and FN Fswitched.
+
+<1.10>
+- [Important] Fixed an issue that Security issue update LEN-60179, LEN-61632, LEN-66614 and LEN-66615.
+- (Fix) Fixed an issue that "FN+Tab" key has no function when select "Fn Sticky key method" in Lenovo vantage.
+
+<1.09> 
+- (Fix) Remove "Enhanced Windows Biometric Security" menu from the Security option of BIOS setup because this preject only support security level 1.
+- (Fix) Added Power On with AC Attach option in "Power" of setup menu 
+
+<1.07> 
+- (Fix) Fixed an issue that unit hang occurred when update BIOS using winflash with silent command.
+
+<1.06> 
+- [Important] Update EDID table
+- (New) Support Shutdown Notification for NVMe SSD during BIOS update and G-Reset to Mitigate SSD Issue Risks 
+- (Fix) Fixed an issue that BIOS Boot Priority Order cannot be loaded default by pressing F9 after saving and exiting
+
+<1.05>
+- Initial version of ThinkPad E14 Gen 3 (Machine Types:20Y7,20YD,20YE,20YF)
+                     ThinkPad E15 Gen 3 (Machine Types:20YG,20YH,20YJ,20YK)
+
+
+--------------------------------------------------------------------------------
+UEFI BIOS INFORMATION
+
+Memory Map Information
+----------------------
+Reserved Area:
+The following conventional memory addresses are reserved by the UEFI BIOS and
+others.
+
+  C0000-CFFFF : Reserved for Video BIOS
+  D0000-D0FFF : Reserved for Option ROM of Ethernet (*a)
+  E0000-FFFFF : Reserved for System BIOS
+
+  *a: This area will be released in case of Ethernet LAN Option ROM was NOT used
+      at system boot.
+
+
+Usable Area:
+The following memory address can be used by the memory manager such as EMM386.
+
+  D0000-DFFFF or D1000-DFFFF (*b)
+
+  *b: Memory address will be changed to D1000-DFFFF when Ethernet LAN Option ROM
+      was used at system boot.
+
+  Note:
+  Certain addresses in this area will be reserved for optional devices by
+  Operating Systems. The addresses vary and depend on the design of each
+  Operating System.
+
+--------------------------------------------------------------------------------
+LIMITATIONS
+
+  Nothing.
+
+
+--------------------------------------------------------------------------------
+HOW TO CREATE A BOOTABLE BIOS FLASH USB MEMORY KEY
+
+1. Refer to the "HOW TO INSTALL" Section 1 to 7.
+2. Attach a USB memory key to your Windows system, then format the USB memory key.
+   Note: A medium formatted with NTFS or exFAT is not supported by this Flash Update process.
+         Use FAT32 or FAT16 as a file system of the medium.
+3. Open command prompt with administrator right, then move to a directory of this
+   package.
+4. Run mkusbkey.bat in the directory with following command format, then finish 
+   creating BIOS flash USB memory key.
+
+        Syntax : mkusbkey.bat [Drive]
+
+        [Drive]
+                D:,E:,F:... : Drive letter assigned to the USB memory key
+
+  Example : mkusbkey D: 
+
+--------------------------------------------------------------------------------
+HOW TO UPDATE BIOS AND EC FIRMWARE BY BIOS FLASH USB MEMORY KEY
+
+1. Make sure that a system main battery is fully charged and AC power is
+   attached. On tablet system, attach an external keyborad.
+2. BIOS Setup item Startup->UEFI/Legacy Boot needs to be "Both" or 
+   "UEFI Only"
+3. Attach a BIOS flash USB memory key to the target system.
+4. Power on the target system, then press F12 key to show Boot Menu.
+5. Select USB HDD in the Boot Menu, then press Enter to make the target system
+   boot from the USB memory key.
+6. BIOS/EC firmware update process will start. Please proceed according to the 
+   display on the screen. System will reboot several times and actual firmware 
+   update process will occur during these system reboot events.
+   Do not power off the target system during these system reboot events to 
+   complete firmware update process until operating system boots up. 
+
+--------------------------------------------------------------------------------
+TRADEMARKS
+
+* Lenovo are registered trademarks of Lenovo.
+* Rescue and Recovery is a trademark of Lenovo.
+
+* Intel is a registered trademark of Intel Corporation.
+* Microsoft, BitLocker, Windows are registered trademarks of
+  Microsoft Corporation.
+
+Other company, product, and service names may be registered trademarks,
+trademarks or service marks of others.
