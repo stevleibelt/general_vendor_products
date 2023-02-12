@@ -1,5 +1,23 @@
 # Xiaomi Poco X3
 
+## Install Linage OS 20
+
+* `fastboot devices`
+* `fastboot flash recovery lineage-20.0-20230206-recovery-surya.img`
+* `fastboot boot lineage-20.0-20230206-recovery-surya.img`
+* [mindthegapps](https://wiki.lineageos.org/gapps) herunterladen
+* `Factory Reset` -> `Format data / factory reset`
+* Return to main menu
+* `Apply update` -> `Apply from ADB`
+* `adb sidload lineage-20.0-20230206-nightly-surya-signed.zip`
+* `adb sideload MindTheGapps-13.0.0-arm64-20221025_100653.zip`
+  * Skip validation check
+* `adb sideload Magisk-v25.2.zip`
+  * Skip validation check
+* `adb sideload safetynet-fix-v2.4.0.zip`
+  * Skip validation check
+* `Reboot system now`
+
 ## Install CRDroid 8.12
 
 * First of all, donate for each used software named below
@@ -46,11 +64,12 @@
 
 ## Links
 
+* [AnxCam](https://sourceforge.net/projects/miuicamerapocox3/files/MIUICameraPocoX3.zip/download)
 * [crCdroid 9.1 for poco x3](https://crdroid.net/surya/9)
 * [Firmware download for poco x3](https://xiaomifirmwareupdater.com/firmware/surya/)
-* [OrangeFox download for poco x3](https://sourceforge.net/projects/builds-ardjlon/files/surya/recovery/OrangeFox-Unofficial-surya_FBEv2.zip/download)
-* [NikGapps](https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-T/08-Sep-2022/)
+* [LinageOS 20](lineage-20.0-20230206-recovery-surya.img) - 20230212
 * [Magisk](https://github.com/topjohnwu/Magisk/releases)
   * [Saftynet-fix](https://github.com/kdrag0n/safetynet-fix/releases)
-* [AnxCam](https://sourceforge.net/projects/miuicamerapocox3/files/MIUICameraPocoX3.zip/download)
+* [NikGapps](https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-T/08-Sep-2022/)
+* [OrangeFox download for poco x3](https://sourceforge.net/projects/builds-ardjlon/files/surya/recovery/OrangeFox-Unofficial-surya_FBEv2.zip/download)
 
