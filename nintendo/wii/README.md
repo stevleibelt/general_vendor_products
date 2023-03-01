@@ -49,5 +49,7 @@
 * [How to Install Homebrew on a Nintendo Wii Using LetterBomb](https://www.makeuseof.com/tag/set-wii-homebrew-letterbomb/) - 20230226
 * [How to Install Homebrw on Wii Menu](https://www.wikihow.com/Install-Homebrew-on-Wii-Menu-4.3) - 20230226
 * [Homebrew setup](https://wiibrew.org/wiki/Homebrew_setup) - 20230226
+* [List of homebrews](https://wiibrew.org/wiki/List_of_homebrew_applications) - 20230228
 * [The complete guide to modding your Nintendo Wii](https://wii.guide/) - 20230226
+* [WiiDatabase](https://wiidatabase.de/)
 
