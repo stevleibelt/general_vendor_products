@@ -4,3 +4,4 @@
 
 It is downladed from the official [source](https://download.avm.de/fritzbox/fritzbox-4040/deutschland/recover/).
 
+It is working fine with wine.
