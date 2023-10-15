@@ -88,12 +88,13 @@
 
 ## Links
 
-* [How to homebrew a wii u](https://wiiu.hacks.guide/#/tiramisu/sd-preparation)
-* [How to install Tiramisu](https://wiiu.hacks.guide/#/tiramisu/sd-preparation)
-  * [Buy the developer of Tiramisu a coffee](https://ko-fi.com/maschell)
-  * [Sponsore the developer of Tiramisu via github](https://github.com/sponsors/Maschell)
-* [Developer of the WiiU Sigpatches](https://github.com/marco-calautti/SigpatchesModuleWiiU/releases)
-* [How to block wii u updates](https://wiiu.hacks.guide/#/block-updates)
-* [NUSpli](https://github.com/V10lator/NUSspli/releases)
 * [Aroma](https://wiidatabase.de/wii-u-downloads/hacks/aroma/) - Is the new "gold standard" and should be used instead of tiramisu - 20230402
+* [Developer of the WiiU Sigpatches: github.com](https://github.com/marco-calautti/SigpatchesModuleWiiU/releases)
+* [How to homebrew a wii u: wiiu.hacks.guide](https://wiiu.hacks.guide/#/tiramisu/sd-preparation)
+* [How to install Tiramisu: wiiu.hacks.guide](https://wiiu.hacks.guide/#/tiramisu/sd-preparation)
+  * [Buy the developer of Tiramisu a coffee: ko-fi.com](https://ko-fi.com/maschell)
+  * [Sponsore the developer of Tiramisu via github: github.com](https://github.com/sponsors/Maschell)
+* [How to block wii u updates: wiiu.hacks.guide](https://wiiu.hacks.guide/#/block-updates)
+* [NUSpli: github.com](https://github.com/V10lator/NUSspli/releases)
+* [WiiUDownloader: github.com](https://github.com/Xpl0itU/WiiUDownloader) - 20231015
 
