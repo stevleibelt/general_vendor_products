@@ -1,5 +1,26 @@
 # Xiaomi Poco X3
 
+## Backup using adebar
+
+```bash
+# ref: https://codeberg.org/izzy/Adebar
+mkdir my_backup
+cd my_backup
+mkdir data
+wget https://codeberg.org/izzy/Adebar/raw/branch/master/doc/quickstart_config.sample
+mv quickstart_config.sample poco_x3.config
+# open the files and adapt it
+vim poco_x3.config
+# enable usb debugging on your phone
+# enable usb debugging on your phone
+# check to allow adb connection
+adebar data
+cd data
+# unlock your device and confirm all steps
+./sysbackup
+./userbackup
+```
+
 ## Install Linage OS 20
 
 * `fastboot devices`
