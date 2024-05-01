@@ -3,6 +3,7 @@
 ## Notes
 
 * `DEL` to enter BIOS-Setup
+* `F11` to enter Boot Menu
 
 ## Links
 
