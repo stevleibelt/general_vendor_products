@@ -3,6 +3,7 @@
 ## Numbers
 
 | Technical details | |
+| --- | --- |
 | Power ratings |  5, 8, 11, 15, 19 kW |
 | EfficiencyHigh | Efficiency thanks to modern, durable scroll compressor with 10-year material guarantee |
 | Heating temperature min. / max. | 25 / 65 °C |
