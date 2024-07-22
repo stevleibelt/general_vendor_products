@@ -26,3 +26,4 @@ VWF 157/4: A+++ (35°C), A +++ (55°C) |
 ## Links
 
 * [Official product page: vaillant.ch](https://www.vaillant.ch/privatkunden/produkte/warmepumpen-flexotherm-exclusive-vwf-13312.html) - 20240722
+* [Official product page: vaillant.de](https://www.vaillant.de/heizung/produkte/warmepumpe-flexotherm-exclusive-286272.html) - 20240722
