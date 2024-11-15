@@ -30,7 +30,7 @@ cd data
 * `Factory Reset` -> `Format data / factory reset`
 * Return to main menu
 * `Apply update` -> `Apply from ADB`
-* `adb sidload lineage-20.0-20230206-nightly-surya-signed.zip`
+* `adb sideload lineage-20.0-20230206-nightly-surya-signed.zip`
 * `adb sideload MindTheGapps-13.0.0-arm64-20221025_100653.zip`
   * Skip validation check
 * `adb sideload Magisk-v25.2.zip`
