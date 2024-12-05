@@ -26,7 +26,7 @@ Hints:
 
 ### SXMO gestures
 
-[!Image containing sxmo gestures on the display](sxmo_gestures.jpg)
+![Image containing sxmo gestures on the display](sxmo_gestures.jpg)
 
 The default swipe gestures are: 
 
