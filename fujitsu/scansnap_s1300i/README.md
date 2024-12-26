@@ -3,22 +3,29 @@
 ## How to install
 
 ```bash
-#install sane sane-utils ipp-usb
-echo "" >> /etc/sane.d/fujitsu.conf
-echo "#ScanSnap s1300i" >> /etc/sane.d/fujitsu.conf
-echo "usb 0x04c5 0x1155" >> /etc/sane.d/fujitsu.conf
-mkdir -p /usr/share/sane
-cd /usr/share/sane
-mkdir epjitsu/
+# install
+apt install sane-airscan sane-utils ipp-usb
+#   only for graphical frontend
+# apt install sane
+
+#find your scanner
+sane-find-scanner
+# example output
+#   found USB scanner (vendor=0x04c5 [FUJITSU], product=0x128d [ScanSnap S1300i]) at libusb:001:004
+cat >> /etc/sane.d/fujitsu.conf <<DELIM
+# [FUJITSU], [ScanSnap S1300i]
+# <connection-type> <vendor-id> <device-id>
+usb 0x04c5 0x128d
+DELIM
+mkdir -p /usr/share/sane/epjitsu
 cd /usr/share/sane/epjitsu/
 wget "https://github.com/stevleibelt/general_vendor_products/blob/master/fujitsu/scansnap_s1300i/1300i_0D12.nal?raw=true" --output-document=1300i_0D12.nal
 #on some systems needed
 ln -s epjitsu fujistu
 systemctl enable saned.socket
 systemctl start saned.socket
-systemctl enable ipp-usb.servce
-systemctl start ipp-usb.servce
-#use >>sane-find-scanner<<
+systemctl enable ipp-usb.service
+systemctl start ipp-usb.service
 #list know scanners >>scanimage --list-devices<<
 * use simple-scan, sane or xsane
 ```
@@ -29,8 +36,10 @@ systemctl start ipp-usb.servce
 
 ## Share scanner over the network
 
-```
+```bash
+#required
 echo "localhost" >> /etc/sane.d/saned.conf
+#allow local subnet
 echo "192.168.178.0/24" >> /etc/sane.d/saned.conf
 ```
 
@@ -42,4 +51,3 @@ echo "192.168.178.0/24" >> /etc/sane.d/saned.conf
 * http://www.documentsnap.com/fujitsu-scansnap-in-linux/
 * http://www.fujitsu.com/global/support/products/computing/peripheral/scanners/scansnap/manuals/s1300i.html
 * http://www.fujitsu.com/global/support/products/computing/peripheral/scanners/scansnap/software/s1300i.html
-
