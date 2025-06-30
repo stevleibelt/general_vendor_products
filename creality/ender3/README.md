@@ -1,11 +1,13 @@
-# general
+# Creality Ender 3
+
+## General Information
 
 * you can use arduino to flash original firmware or merlin
 * you can use klipper with octoprint or mainsailos
 * check out [ender 3 printerbay page](https://printbay.eu/Creality-Ender-3)
 * most important, level the bed right and you don't have to care about other ideas
 
-# link
+## Link
 
 * [Ausprobiert: Creality Silent Mainboard V1.1.5](https://m.heise.de/make/artikel/Ausprobiert-Creality-Silent-Mainboard-V1-1-5-4601393.html) - 20191210
 * [EInstellungen optimieren Ender 3 + Cura](https://www.3d-druck-community.de/showthread.php?tid=24083) - 20180925
