@@ -3,7 +3,7 @@
 ## General Information
 
 * you can use arduino to flash original firmware or merlin
-* you can use klipper with octoprint or mainsailos
+* you can use klipper with [octoprint](https://octoprint.org/) or [mainsailos](https://docs-os.mainsail.xyz/)
 * check out [ender 3 printerbay page](https://printbay.eu/Creality-Ender-3)
 * most important, level the bed right and you don't have to care about other ideas
 
