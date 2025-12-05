@@ -4,6 +4,15 @@ You can [verify](https://www.mi.com/global/verify#/en/tab/imei) your device to f
 
 Model M2007J20CG is handled as global.
 
+You have to enable developer options via `About this phone` -> Tap on `Build number` until you've unlocked the developer options.  
+You have to enable usb debugging via `System` -> `Developer options` -> `USB debugging`
+
+## Unlock bootloader
+
+```bash
+fastboot flashing get_unlock_ability
+```
+
 ## Backup using adebar
 
 ```bash
