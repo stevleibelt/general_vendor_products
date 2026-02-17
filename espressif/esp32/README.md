@@ -1,5 +1,11 @@
 # ESP32
 
+## Setup
+
+```bash
+paru -S esphome esphome-flasher
+```
+
 ## Links
 
 * [esphome.io](https://esphome.io/) - 20251207
